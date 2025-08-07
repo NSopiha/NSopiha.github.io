@@ -1,32 +1,31 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
-permalink: /:title/
+title: "NS Performance Studio"
+author: "NSopiha"
+description: "NS Performance Studio offers personalized strength and conditioning programs in a motivating, community-driven environment."
+permalink: /ns-performance-studio/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+show_minimal: false
 
-#show_frame: "/assets/images/background.svg"
+# Menu
 
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
+navigation:
   - {file: "archive.html", sidebaricon: home}
   - {file: "README.md", sidebaricon: address-card}
 
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+external:
+  - {title: Mail, icon: envelope, url: "mailto:nataliia.sopiha@calbrightcollege.org"}
+  - {title: Github, icon: github, url: "https://github.com/nsopiha"}
+ # - {title: Subscribe, icon: rss, url: "/"}#
 
 comments:
+
 #  disqus_shortname: ""         # see https://disqus.com
 #  isso_domain: ""              # see https://isso-comments.de
 
